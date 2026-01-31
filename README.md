@@ -13,7 +13,7 @@ See also:
 
 * [Blu-ray 3D](bd3d)
 * [Digital Cinema Package (DCP)](dcp)
-* [Optical Drive Firmware Flashing](odd-firmware)
+* [Optical Drive Firmware](odd-firmware)
 * [Matroska Video (MKV)](mkv)
 
 ## License
