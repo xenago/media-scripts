@@ -96,11 +96,13 @@ Once installed, run BD3D2MK3D.
 
 5. Then go to the DCP settings and configure them accordingly.
 
-   **IMPORTANT NOTE:** Although the default 8-channel mapping works fine for standard 5.1 sources like DTS, care must be taken with 7.1 sources to ensure that the additional surround channels are not mapped to incorrect streams like HI/VI!
-
    ![DCP-o-matic video settings](./dcp_o_matic_video.png)
 
    ![DCP-o-matic audio settings](./dcp_o_matic_audio.png)
+
+   **IMPORTANT NOTE:** Although the default 8-channel mapping works fine for standard 5.1 sources like DTS, care must be taken with 7.1 sources to ensure that the additional surround channels are not mapped to incorrect streams like HI/VI - output in 16-channel mode and then map them correctly like this example using DTS-HD MA 7.1:
+
+   ![DCP-o-matic 7.1 audio settings](./dcp_o_matic_71_audio.png)
 
 6. Pack into a DCP:
 
