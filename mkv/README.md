@@ -10,7 +10,7 @@ https://codeberg.org/mbunkus/mkvtoolnix (formerly at https://gitlab.com/mbunkus/
 
 https://mkvtoolnix.download/downloads.html
 
-**NOTE:** if running on an older version of Windows or in an environment without `DirectWrite` support, the UI cannot render properly without the `-platform windows:nodirectwrite` flag [applied on startup as an argument](https://codeberg.org/mbunkus/mkvtoolnix/wiki/MKVToolNix-GUI%3A-blocks-instead-of-UI-text).
+**NOTE:** if running on an older version of Windows (e.g. Server 2016) or in an environment without `DirectWrite` support, the UI cannot render properly without the `-platform windows:nodirectwrite` flag [applied on startup as an argument](https://codeberg.org/mbunkus/mkvtoolnix/wiki/MKVToolNix-GUI%3A-blocks-instead-of-UI-text). The most recent version I tested that worked with this fix and no other crashes (e.g. `SetThreadDescription could not be located in the dynamic link library`) is version `93.0.0`, [mirrored here](https://mkvtoolnix.download/windows/releases/93.0/).
 
 Install with `winget` on Windows as `MoritzBunkus.MKVToolNix`.
 
