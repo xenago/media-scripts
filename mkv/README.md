@@ -10,6 +10,8 @@ https://codeberg.org/mbunkus/mkvtoolnix (formerly at https://gitlab.com/mbunkus/
 
 https://mkvtoolnix.download/downloads.html
 
+**NOTE:** if running on an older version of Windows or in an environment without `DirectWrite` support, the UI cannot render properly without the `-platform windows:nodirectwrite` flag [applied on startup as an argument](https://codeberg.org/mbunkus/mkvtoolnix/wiki/MKVToolNix-GUI%3A-blocks-instead-of-UI-text).
+
 Install with `winget` on Windows as `MoritzBunkus.MKVToolNix`.
 
 https://github.com/microsoft/winget-pkgs/tree/master/manifests/m/MoritzBunkus/MKVToolNix
